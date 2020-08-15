@@ -1,0 +1,706 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero1 {
+    width: 100%;
+    /* height: 100vh; */
+    background: url("../img/img13.jpg")  center;
+    background-size: cover;
+    position: relative;
+    margin-top: -80px;
+    z-index: 9;
+   
+  }
+  
+  #hero1 .hero-container {
+    /* position: absolute; */
+    /* bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* padding: 0 15px; */
+    padding: 60px 15px;
+  }
+  
+  
+  #hero1 h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  #hero1 h2 {
+    color: #eee;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  #hero1 p{
+      text-align: center;
+      line-height: 25px;
+      font-weight: 500;
+      font-size: 20px;
+  }
+  
+  #hero1 .countdown1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 56px;
+    margin: 30px 0 60px 0;
+  }
+  
+  #hero1 .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  #hero1 .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  #hero1 .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+   #hero1 .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  } 
+  
+  #hero1 .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading-notify 1s linear infinite;
+    animation: animate-loading-notify 1s linear infinite;
+  } 
+  
+   @-webkit-keyframes animate-loading-notify {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-loading-notify {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+  
+   #hero1 .php-email-form input {
+    border-radius: 41px;
+    box-shadow: none;
+    font-size: 14px;
+    border: 0;
+    padding: 0px 15px 2px 15px;
+    width: 100%;
+    height: 50px;
+    background-color: #131313;
+    color: #fff;
+    font-weight: 800;
+    border: 2px solid gray;
+    /* margin: 0 8px; */
+  }
+  
+  #hero1 .php-email-form button[type="submit"] {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 7px 30px;
+    border-radius: 16px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid gray;
+    color: #fff;
+    background: #131313;
+  }
+  
+  #hero1 .php-email-form button[type="submit"]:hover {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+  } 
+  
+  @media (min-width: 1024px) {
+    #hero1 {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #hero1 h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #hero1 h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+    #hero1 .php-email-form input {
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    #hero1 .countdown1 {
+      font-size: 32px;
+      line-height: 38px;
+    }
+  }
+
+@media (min-width: 1024px) {
+  #hero1 {
+    background-attachment: fixed;
+  }
+  #hero1 .php-email-form input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero1 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero1 h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero1 .php-email-form input {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero1 .countdown1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+/*    <----------MALANG----------->             */
+
+#hero2 {
+  width: 100%;
+  /* height: 100vh; */
+  background: url("../img/img12.jpg")  center;
+  background-size: cover;
+  position: relative;
+  margin-top: -80px;
+  z-index: 9;
+ 
+}
+
+#hero2 .hero-container {
+  /* position: absolute; */
+  /* bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /* padding: 0 15px; */
+  padding: 60px 15px;
+}
+
+
+#hero2 h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#hero2 h2 {
+  color: #eee;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+#hero2 p{
+    text-align: center;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#hero2 .countdown1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 56px;
+  margin: 30px 0 60px 0;
+}
+
+#hero2 .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#hero2 .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#hero2 .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+ #hero2 .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+} 
+
+#hero2 .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading-notify 1s linear infinite;
+  animation: animate-loading-notify 1s linear infinite;
+} 
+
+ @-webkit-keyframes animate-loading-notify {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading-notify {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
+ #hero2 .php-email-form input {
+  border-radius: 41px;
+  box-shadow: none;
+  font-size: 14px;
+  border: 0;
+  padding: 0px 15px 2px 15px;
+  width: 100%;
+  height: 50px;
+  background-color: #131313;
+  color: #fff;
+  font-weight: 800;
+  border: 2px solid gray;
+  /* margin: 0 8px; */
+}
+
+#hero2 .php-email-form button[type="submit"] {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 7px 30px;
+  border-radius: 16px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid gray;
+  color: #fff;
+  background: #131313;
+}
+
+#hero2 .php-email-form button[type="submit"]:hover {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+} 
+
+@media (min-width: 1024px) {
+  #hero2 {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero2 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero2 h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero2 .php-email-form input {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero2 .countdown1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media (min-width: 1024px) {
+#hero2 {
+  background-attachment: fixed;
+}
+#hero2 .php-email-form input {
+  width: 100%;
+}
+}
+
+@media (max-width: 768px) {
+#hero2 h1 {
+  font-size: 28px;
+  line-height: 36px;
+}
+#hero2 h2 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+#hero2 .php-email-form input {
+  margin: 0 auto;
+}
+}
+
+@media (max-width: 575px) {
+#hero2 .countdown1 {
+  font-size: 32px;
+  line-height: 38px;
+}
+}
+
+
+
+/*    <----------U-TRANSFER----------->             */
+
+#hero3 {
+  width: 100%;
+  /* height: 100vh; */
+  background: url("../img/img32.jpg")  center;
+  background-size: cover;
+  position: relative;
+  margin-top: -80px;
+  z-index: 9;
+ 
+}
+
+#hero3 .hero-container {
+  /* position: absolute; */
+  /* bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /* padding: 0 15px; */
+  padding: 60px 15px;
+}
+
+
+#hero3 h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+ 
+}
+
+#hero3 h2 {
+  color: #eee;
+  
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+#hero3 p{
+    text-align: center;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#hero3 .countdown1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #fff;
+ 
+  line-height: 56px;
+  margin: 30px 0 60px 0;
+}
+
+#hero3 .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#hero3 .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#hero3 .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+ #hero3 .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+} 
+
+#hero3 .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading-notify 1s linear infinite;
+  animation: animate-loading-notify 1s linear infinite;
+} 
+
+ @-webkit-keyframes animate-loading-notify {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading-notify {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
+ #hero3 .php-email-form input {
+  border-radius: 41px;
+  box-shadow: none;
+  font-size: 14px;
+  border: 0;
+  padding: 0px 15px 2px 15px;
+  width: 100%;
+  height: 50px;
+  background-color: #131313;
+  color: #fff;
+  font-weight: 800;
+  border: 2px solid gray;
+  /* margin: 0 8px; */
+}
+
+#hero3 .php-email-form button[type="submit"] {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 7px 30px;
+  border-radius: 16px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid gray;
+  color: #fff;
+  background: #131313;
+}
+
+#hero3 .php-email-form button[type="submit"]:hover {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+} 
+
+@media (min-width: 1024px) {
+  #hero3 {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero3 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero3 h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero3 .php-email-form input {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero3 .countdown1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media (min-width: 1024px) {
+#hero3 {
+  background-attachment: fixed;
+}
+#hero3 .php-email-form input {
+  width: 100%;
+}
+}
+
+@media (max-width: 768px) {
+#hero3 h1 {
+  font-size: 28px;
+  line-height: 36px;
+}
+#hero3 h2 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+#hero3 .php-email-form input {
+  margin: 0 auto;
+}
+}
+
+@media (max-width: 575px) {
+#hero3 .countdown1 {
+  font-size: 32px;
+  line-height: 38px;
+}
+}
+
+
+
+  #player-container #play-pause {
+    cursor: pointer;
+    height:80px;
+    width: 80px;
+    background-color:black;
+    background-image: url('https://basichow.com/asserts/images/play.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:20px;
+    border-radius: 50%;
+    border-style: solid; 
+    
+}
+    
+  .play {
+   
+    
+    background-image: url('https://basichow.com/asserts/images/play.png');
+   
+    
+  }
+  .pause {
+    -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate1 2s;
+  animation: pulsate1 2s;
+  -webkit-animation-direction: ease-in-out ;
+  animation-direction: ease-in-out ;
+  -webkit-animation-iteration-count: ease-in-out infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;    
+     background-image: url('https://basichow.com/asserts/images/pause.png')!important;
+     
+  }
+
+  @keyframes pulsate1 {
+    0% {
+      -webkit-transform: scale(0.6);
+      transform: scale(0.6);
+      opacity: 1;
+      box-shadow: inset 0px 0px 95px 10px rgba(160, 2, 252, 0.877), 0px 0px 95px 10px rgba(12, 35, 240, 0.99);
+    }
+    
+  }
+
+
+
